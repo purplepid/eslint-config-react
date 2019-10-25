@@ -1,0 +1,38 @@
+{
+  "name": "@purplepid/eslint-config-react",
+  "version": "0.0.1",
+  "author": "Marc Neander <marc@purplepid.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/purplepid/eslint-config-react"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE"
+  ],
+  "homepage": "https://purplepid.com",
+  "keywords": [
+    "purplepid",
+    "eslint",
+    "eslintconfig",
+    "config",
+    "javascript"
+  ],
+  "scripts": {
+      "lint": "eslint ."
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react-hooks": "^2.2.0",
+    "eslint": "^6.5.1",
+    "prettier": "^1.18.2"
+  }
+}
